@@ -1,0 +1,14 @@
+# Dependencies/cache
+vendor/
+runtime/*
+!runtime/.htaccess
+!runtime/index.html
+*.log
+
+# NEVER commit secrets
+.env
+!.env.example
+
+.DS_Store
+.idea/
+.vscode/
